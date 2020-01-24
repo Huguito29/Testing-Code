@@ -7,7 +7,7 @@ function BuyButton() {
     return (
 
 
-        <div class="buyBtn">
+        <div className="buyBtn">
             <button type="button" className="buyBtn">Comprar Passagens Online</button>
             <hr></hr>
         </div>

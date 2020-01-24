@@ -8,12 +8,12 @@ import Footer from './Footer.js';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
 
-      <Main/>
+      <Main />
 
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

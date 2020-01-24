@@ -8,7 +8,7 @@ import '../../Main.css';
 
 function SlideHome() {
     return (
-        <div class="slideBanner">
+        <div className="slideBanner">
             <Carousel>
                 <Carousel.Item>
                     <img

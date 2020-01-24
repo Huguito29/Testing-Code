@@ -12,7 +12,7 @@ function Main() {
                 <SlideHome />
 
                 <BuyButton />
-                <div class="features">
+                <div className="features">
 
                     <h1>Features</h1>
 

@@ -1,31 +1,30 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import '../../Main.css';
+import HomeImages from "../images/HomeImages.js";
 
 
 function CardFeatures() {
     return (
-
-        <div class="grid-container">
-            <div class="grid-itens">
+        
+        <div className="grid-container">
+            <div className="grid-itens">
                 <Button variant="secondary" size="lg">
                     teste 1
             </Button>
             </div>
-
-            <div class="grid-itens">
-                <Button variant="primary" size="lg">
-                    teste 2
-            </Button>
+            
+            <div className="grid-itens">
+             <img src={HomeImages.images} alt="Teste"/>
             </div>
 
-            <div class="grid-itens">
+            <div className="grid-itens">
                 <Button variant="danger" size="lg">
                     teste 3
             </Button>
             </div>
 
-            <div class="grid-itens">
+            <div className="grid-itens">
                 <Button variant="success" size="lg">
                     teste 4
             </Button>
