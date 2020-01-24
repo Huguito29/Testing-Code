@@ -1,0 +1,43 @@
+.slideBanner {
+  width: 100% auto;
+}
+
+.buyBtn {
+  margin-top: 25px;
+  text-align: center;
+}
+.buyBtn button {
+  text-align: center;
+  background-color: #218838;
+  width: 35%;
+  height: 52px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 25px;
+}
+hr {
+    background-color: #218838;
+    width: 10%;
+    padding-bottom: 5px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin-top: 55px;
+    text-align: center;
+   
+  }
+  
+  .grid-item {
+    
+  }
+
+  .features h1 {
+      margin-top: 67px;
+      text-align: center;
+  }
