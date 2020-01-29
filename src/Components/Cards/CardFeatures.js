@@ -1,10 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
+
 import { Button } from "react-bootstrap";
-import '../../Main.css';
-import HomeImages from "../images/HomeImages.js";
 import PontaPora from '../../images/destaques/pontapora.jpg';
 
-function CardFeatures() {
+function CardFeatures () {
     return (
 
         <div className="grid-container">
@@ -43,5 +42,6 @@ function CardFeatures() {
 
     );
 }
+
 
 export default CardFeatures;

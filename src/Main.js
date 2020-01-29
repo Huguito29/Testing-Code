@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {
+    Route,
+    NavLink,
+    HashRouter
+} from "react-router-dom";
 import './Main.css';
 
 import SlideHome from './Components/Carousel/CarouselHome.js';
 import BuyButton from './Components/Buttons/BuyButton.js';
 import CardFeatures from './Components/Cards/CardFeatures';
+import Features from './Features';
 
-function Main() {
+class Main extends Component {
+    render () {
     return (
         <section role="main">
             <main>
@@ -16,11 +23,12 @@ function Main() {
 
                     <h1>Features</h1>
 
-                    <CardFeatures />
+                    <Features />
                 </div>
             </main>
         </section>
     );
+}
 }
 
 export default Main;

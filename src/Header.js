@@ -1,43 +1,56 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {
+    Route,
+    NavLink,
+    HashRouter
+} from "react-router-dom";
 import './Header.css';
 
 import logoMenu from './images/logo-umuarama.png';
 import logoUrbano from './images/logo-umuarama-urb.png';
+import CardFeatures from './Components/Cards/CardFeatures';
 
-function Header() {
-    return (
-        <section role="header">
-            <header>
-               
-                <div className="headerStyle">
-                <img src={logoMenu} className="logoMenu" alt="teste" title="testando"/>
-                
-                 <ul>
-                     
-                    <li>
-                    <a href="#">Agências</a>
-                    </li>
+class Header extends Component {
+    render() {
+        return (
+            <HashRouter>
+                <section role="header">
+                    <header>
 
-                    <li>
-                    <a href="#">Sobre</a>
-                    </li>
+                        <div className="headerStyle">
+                            <img src={logoMenu} className="logoMenu" alt="teste" title="testando" />
 
-                     <li>
-                     <a href="#">Comprar Online</a>
-                     </li>
+                            <ul>
 
-                     <li>
-                        <a href="#">Transporte Urbano</a>
-                        <img src={logoUrbano} className="logoUrb"/>
-                     </li>
+                                <li>
+                                    <a href="#">Agências</a>
+                                </li>
 
-                </ul>
-                
-                </div>
-            </header>
-            </section>
-       
-    );
+                                <li>
+                                <NavLink to="Features">features</NavLink>
+                                </li>
+
+                                <li>
+                                    <a href="#">Sobre</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Comprar Online</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Transporte Urbano</a>
+                                    <img src={logoUrbano} className="logoUrb" />
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </header>
+                </section>
+            </HashRouter>
+        );
+    }
 }
 
 export default Header;
