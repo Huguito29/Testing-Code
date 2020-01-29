@@ -10,27 +10,32 @@ function CardFeatures() {
         <div className="grid-container">
             <div className="grid-itens">
                 <img src={PontaPora} alt="Teste" />
-                <h3>Título do Card</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam quibusdam in nam?</p>
+                <h5>Umuarama - Ponta Porã</h5>
+                <p></p>
+                <button type="button"> Comprar Online</button>
             </div>
 
             <div className="grid-itens">
                 <img src={PontaPora} alt="Teste" />
-                <h3>Título do Card</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam quibusdam in nam?</p>
+                <h5>Umuarama - Ponta Porã</h5>
+                <p>Com conexão</p>
+                <button type="button"> Comprar Online</button>
             </div>
 
             <div className="grid-itens">
                 <img src={PontaPora} alt="Teste" />
-                <h3>Título do Card</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam quibusdam in nam?</p>
+                <h5>Umuarama - Ponta Porã</h5>
+                <p>Com conexão</p>
+                <button type="button"> Comprar Online</button>
             </div>
 
             <div className="grid-itens">
-            <img src={PontaPora} alt="Teste" />
-            <h3>Título do Card</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam quibusdam in nam?</p>
+                <img src={PontaPora} alt="Teste" />
+                <h5>Umuarama - Ponta Porã</h5>
+                <p>Com conexão</p>
+                <button type="button"> Comprar Online</button>
             </div>
+
 
 
         </div>
